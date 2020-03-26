@@ -12,7 +12,7 @@
     "mrm-task",
     "mrm-preset"
   ],
-  "repository": "https://github.com/therealklanni/mrm-task-commitlint",
+  "repository": "https://github.com/therealklanni/mrm",
   "author": "Kevin Lanni <therealklanni@gmail.com> (https://github.com/therealklanni)",
   "license": "MIT",
   "dependencies": {

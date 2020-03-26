@@ -38,6 +38,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:8.3.4"
       ],
       [
+        "@therealklanni/commitlint-config",
+        "npm:0.1.0"
+      ],
+      [
         "husky",
         "npm:4.2.3"
       ],
@@ -59,6 +63,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@commitlint/cli", "npm:8.3.5"],
             ["@commitlint/config-conventional", "npm:8.3.4"],
+            ["@therealklanni/commitlint-config", "npm:0.1.0"],
             ["husky", "npm:4.2.3"],
             ["mrm-core", "npm:4.0.3"],
             ["mrm-task-commitlint", "npm:0.1.1"]
@@ -297,6 +302,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@therealklanni/commitlint-config", [
+        ["npm:0.1.0", {
+          "packageLocation": "./.yarn/cache/@therealklanni-commitlint-config-npm-0.1.0-ff129a4c55-2.zip/node_modules/@therealklanni/commitlint-config/",
+          "packageDependencies": [
+            ["@therealklanni/commitlint-config", "npm:0.1.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@therealklanni/mrm", [
         ["workspace:.", {
           "packageLocation": "./",
@@ -304,6 +318,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@therealklanni/mrm", "workspace:."],
             ["@commitlint/cli", "npm:8.3.5"],
             ["@commitlint/config-conventional", "npm:8.3.4"],
+            ["@therealklanni/commitlint-config", "npm:0.1.0"],
             ["husky", "npm:4.2.3"],
             ["mrm-core", "npm:4.0.3"],
             ["mrm-task-commitlint", "npm:0.1.1"]

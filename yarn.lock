@@ -213,12 +213,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@therealklanni/commitlint-config@npm:latest":
+  version: 0.1.0
+  resolution: "@therealklanni/commitlint-config@npm:0.1.0"
+  checksum: 2/1075e7a2d3bfd85cd2e8a39c88e2b413f539f4015f3039cb6cc872ecf143509e191adc48af840c5db0e67de4dfb3dc1e72fb18a99bc677d826feae1cdf3b03fd
+  languageName: node
+  linkType: hard
+
 "@therealklanni/mrm@workspace:.":
   version: 0.0.0-use.local
   resolution: "@therealklanni/mrm@workspace:."
   dependencies:
     "@commitlint/cli": latest
     "@commitlint/config-conventional": latest
+    "@therealklanni/commitlint-config": latest
     husky: latest
     mrm-core: ^4.0.3
     mrm-task-commitlint: ^0.1.1

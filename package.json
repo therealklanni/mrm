@@ -1,0 +1,32 @@
+{
+  "name": "@therealklanni/mrm",
+  "version": "0.1.0",
+  "description": "Mrm tasks",
+  "main": "config.json",
+  "files": [
+    "config.json",
+    "*/index.js"
+  ],
+  "keywords": [
+    "mrm",
+    "mrm-task",
+    "mrm-preset"
+  ],
+  "repository": "https://github.com/therealklanni/mrm-task-commitlint",
+  "author": "Kevin Lanni <therealklanni@gmail.com> (https://github.com/therealklanni)",
+  "license": "MIT",
+  "dependencies": {
+    "mrm-core": "^4.0.3",
+    "mrm-task-commitlint": "^0.1.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "husky": "latest"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}

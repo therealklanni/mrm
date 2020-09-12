@@ -1,5 +1,5 @@
 {
   "aliases": {
-    "commitlint": ["commitlint-base", "commitlint-custom"]
+    "commitlint": ["commitlint-base", "commitlint-config"]
   }
 }

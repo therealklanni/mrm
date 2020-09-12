@@ -23,7 +23,8 @@
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
     "@therealklanni/commitlint-config": "latest",
-    "husky": "latest"
+    "husky": "latest",
+    "standard-version": "latest"
   },
   "husky": {
     "hooks": {
